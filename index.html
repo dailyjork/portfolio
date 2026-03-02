@@ -17,8 +17,8 @@
     <header>
         <div id="head">
             <h1> Portfolio website </h1>
-            <div id="git"><a href="https://github.com/dailyjork" target="_blank"><img
-                        src="images/github.png"></img></a></div>
+            <div id="git"><a href="https://github.com/dailyjork" target="_blank"><img src="images/github.png"></img></a>
+            </div>
             <button id="cMode">Dark mode</button>
         </div>
     </header>
@@ -30,8 +30,8 @@
                     <button id="aboutb" onclick="goDiv(about)">about me</button><br>
                     <button id="projectsb" onclick="goDiv(projects)">projects</button><br>
                     <button id="skillsb" onclick="goDiv(skills)">skills</button> <br>
-                    <button id="expierenceb" onclick="goDiv(experience)">experience</button><br>
                     <button onclick="goDiv(school)">school</button> <br>
+                    <button id="expierenceb" onclick="goDiv(experience)">experience</button><br>
                     <button id="contactb" onclick="goDiv(contact)">contact</button>
                 </div>
             </div>
@@ -39,17 +39,51 @@
                 <div>
                     <div class="block" id="aboutMe">
                         <h1>Over mij</h1>
-                        <p>Hoi, ik ben Thijs een 16 jarige software developer in opleiding. 
-                            Mijn favorieten dingen aan software development is het kunnen maken van projecten die echt gebruikt kunnen worden, En het zien werken op bijvoorbeeld een spel.
-                            Het deel aan programeren en software development wat ik het leukst vind is de Back end het typen en maken is leuker dan bijvoorbeeld een website designen het is gewoon puur logica niet echt nadenken over waar zou deze text moeten staan.
-                            Ik zou graag meer willen leren over game development zoals modding/games maken. hiervoor wil ik mischien na de opleiding of tijdens meer verdiepen in c#/c++ omdat dit meest gebruikte talen zijn voor game development. maar voor nu vind ik het maken van minecraft mods interesant.
-                        </p>
+                        <h3>Hey,</h3>
+                        <p id="aboutText">
+                            mijn naam is <Strong>Thijs</Strong> ik ben 16 jaar en in opleiding voor software
+                            development. Mijn hobbies zijn voornamelijk gamen, muziek luisteren en ook programmeren.
+                            Ook hou ik veel van katten het zijn zeker de beste dieren op de wereld! En heb zelf ook een
+                            Kat.
+                        </p><a href="cat.html">(klik hier voor katten fotos)</a> <br><br>
+
+                        <h3>Wat vind ik leuk aan software development?</h3>
+                        <p>Mijn favoriete deel aan Software development is <strong>Backend</strong>, Dit vind ik het
+                            leukste deel omdat er veel logica in zit en veel te leren is. De talen die ik nu gebruik
+                            zijn Java en JavaScript. Bij <strong>Java</strong> werk ik het meest met het maken van
+                            applicaties voor de sprints en thuis ben ik aan het uitzoeken hoe minecraft mods werken.
+                            Voor <strong>JavaScript</strong> is het natuurlijk het meest voor websites maar ook ben ik
+                            bezig met het maken van een bot op discord.</p>
+                        <br>
+                        <h3>Over een paar jaar wil ik,</h3>
+                        <p>Meer focusen op <strong>Game development/Modding.</strong> Hiervoor wil ik ook andere talen
+                            leren zoals C# en C++ omdat dit veel gebruikte talen zijn in game development is het een
+                            vereisten voor het verdiepen in het maken van games.</p>
+                        <h4>Hoezo games?</h4>
+                        <p>Sinds kind af aan vond ik het al heel leuk om games te spelen en had ik meerdere ideeën over.
+                            <br><strong>Wat zou ik maken?</strong> Dus eigenlijk is het ook een droom geweest om de
+                            vrijheid te hebben van de games mogen bedenken en mogen maken
+                            wat mij meer wilt laten verdiepen in dit onderwerp.</p>
+                        <div id="socials">
+                            
+                            <a id="gitC" href="https://github.com/dailyjork" target="_blank"><img
+                                    src="images/github.png"></img></a>
+                            <a href=""><img src="images/LinkedIn_logo_initials.png" alt=""></a>
+                            <a onclick="goDiv(contact)" style="cursor: pointer;"><img
+                                    src="images/gmail-new-2020-logo-png_seeklogo-389043.png"></a>
+
+                        </div>
                     </div>
                     <div class="block" id="projects">
                         <h1>Projecten</h1>
                         <div id="cardGame">
-                            <img src="images/Screenshot 2026-03-02 132426.png" alt="">
-                            <p>Dit spel was een opdracht voor een sprint hierbij had ik een simpele gui toegevoegd zodat je het als soort makkelijk spel kan spelen. </p>
+                            <img src="images/Screenshot 2026-03-02 132426.png" alt=""> <br>
+                            <h2>hoger of lager Kaart spel</h2>
+                            <p>Dit Project moesten we maken voor School het is een hoger of lager kaart spel waar je
+                                moet
+                                proberen om zo hoog mogelijke score te krijgen bij een foute gok verlies je, bij een
+                                goede
+                                gok krijg je een punt.</p>
                             <h2><a href="https://github.com/dailyjork/cardGame/">repository</a></h2>
                         </div>
                     </div>
@@ -75,12 +109,16 @@
                     </div>
                     <div class="block" id="school">
                         <h1>school</h1>
+                        <p>Mavo diploma gehaald op Nehallenia 2021-2025</p>
+
+                        <P>In opleiding software developer mbo4 Scalda Vlissingen - 2025-2029</P>
+
                     </div>
                     <div class="block" id="experience">
                         <h1>experience</h1>
+                    </div>
                 </div>
             </div>
-        </div>
     </main>
     <footer>
         <div id="contact">
