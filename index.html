@@ -27,24 +27,33 @@
             <div id="leftColumn">
                 <div id="profile">
                     <img id="profilePicb" src="images/default-avatar-photo-placeholder-profile-icon-vector.jpg" alt="">
-                    <button id="expierenceb" onclick="goDiv(expierence)">expierence</button><br>
-                    <button id="projectsb" onclick="goDiv(projects)">projects</button><br>
                     <button id="aboutb" onclick="goDiv(about)">about me</button><br>
+                    <button id="projectsb" onclick="goDiv(projects)">projects</button><br>
                     <button id="skillsb" onclick="goDiv(skills)">skills</button> <br>
+                    <button id="expierenceb" onclick="goDiv(experience)">experience</button><br>
+                    <button onclick="goDiv(school)">school</button> <br>
                     <button id="contactb" onclick="goDiv(contact)">contact</button>
                 </div>
             </div>
             <div id="rightColumn">
                 <div>
-                    <div class="block">
+                    <div class="block" id="aboutMe">
                         <h1>Over mij</h1>
-                        <p>ik ben thijs mijn naam is thijs</p>
+                        <p>Hoi, ik ben Thijs een 16 jarige software developer in opleiding. 
+                            Mijn favorieten dingen aan software development is het kunnen maken van projecten die echt gebruikt kunnen worden, En het zien werken op bijvoorbeeld een spel.
+                            Het deel aan programeren en software development wat ik het leukst vind is de Back end het typen en maken is leuker dan bijvoorbeeld een website designen het is gewoon puur logica niet echt nadenken over waar zou deze text moeten staan.
+                            Ik zou graag meer willen leren over game development zoals modding/games maken. hiervoor wil ik mischien na de opleiding of tijdens meer verdiepen in c#/c++ omdat dit meest gebruikte talen zijn voor game development. maar voor nu vind ik het maken van minecraft mods interesant.
+                        </p>
                     </div>
-                    <div class="block">
+                    <div class="block" id="projects">
                         <h1>Projecten</h1>
-
+                        <div id="cardGame">
+                            <img src="images/Screenshot 2026-03-02 132426.png" alt="">
+                            <p>Dit spel was een opdracht voor een sprint hierbij had ik een simpele gui toegevoegd zodat je het als soort makkelijk spel kan spelen. </p>
+                            <h2><a href="https://github.com/dailyjork/cardGame/">repository</a></h2>
+                        </div>
                     </div>
-                    <div class="block">
+                    <div class="block" id="skills">
                         <h1>Skills</h1>
                         <p></p><br><br><br><br><br>
                         <h1> Techstack</h1>
@@ -60,14 +69,15 @@
                             <img src="images/claude-color.png" alt="">
                             <img src="images/Google_Gemini_icon_2025.svg.png" alt="">
                             <img src="images/github_logo_icon_229278.png" alt="">
+                            <img src="images/visual-paradigm-logo.png" alt="">
+                            <img src="images/mysql-logo.png" alt="">
                         </div>
                     </div>
-                    <div class="block">
-                        <h1>expierence</h1>
-
+                    <div class="block" id="school">
+                        <h1>school</h1>
                     </div>
-                        <p>maak portfolio website met een div die altijd aan de zijkant plakt verschillende divs waar ik inhoud op kan zetten en op het static block knoppen die je naar de divs sturen met javascript ook een knop voor dark mode en lightmode ook techstack met paar foto</p>
-                    </div>
+                    <div class="block" id="experience">
+                        <h1>experience</h1>
                 </div>
             </div>
         </div>
@@ -87,7 +97,7 @@
             </form>
         </div>
         <div id="footer">
-
+            
         </div>
     </footer>
     <!-- Bootstrap JavaScript Libraries -->

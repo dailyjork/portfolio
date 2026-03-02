@@ -1,15 +1,17 @@
-const expierence = document.getElementById('expierence');
+const experience = document.getElementById('experience');
 const projects = document.getElementById('projects');
 const about = document.getElementById('aboutMe');
 const skills = document.getElementById('skills');
 const contact = document.getElementById('contact');
+const school = document.getElementById('school');
+
 
 function goDiv(id) {
     window.scroll(0, findPos(id));
 }
 
 function findPos(div) {
-    let currenttop = 0;
+    let currenttop = -150;
     if (div.offsetParent) {
         do {
             currenttop += div.offsetTop;
