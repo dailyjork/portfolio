@@ -259,6 +259,7 @@ body.light-mode #cardGame {
 }
 
 @media screen and (max-width: 768px) {
+
     .container {
         flex-direction: column;
         align-items: center;
@@ -277,7 +278,6 @@ body.light-mode #cardGame {
 
     #rightColumn {
         width: 100%;
-        /* Was 950%, nu gefixt naar 100% */
     }
 
     .block {
@@ -299,6 +299,36 @@ body.light-mode #cardGame {
 
     #contact {
         width: 100%;
+    }
+
+    #cat #head {
+        padding: 0 10px;
+        height: 60px;
+    }
+
+    #cat #head h1 {
+        font-size: 1rem;
+        letter-spacing: 1px;
+    }
+
+    #cat #head button {
+        font-size: 0.7rem;
+        padding: 5px 8px;
+    }
+
+    #cat .block {
+        padding: 15px;
+        margin-top: 80px;
+    }
+
+    #cat .block img {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    #cat .container {
+        margin-top: 70px;
+        padding: 0 10px;
     }
 }
 
