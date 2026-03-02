@@ -32,11 +32,11 @@ const gitLogo = document.getElementById('git');
 function switchMode() {
     body.classList.toggle('light-mode');
     if (body.classList.contains('light-mode')) {
-        gitLogo.innerHTML =  '<a href="https://github.com/dailyjork" target="_blank"><img src="../images/githubLight.png"></img></a>'
+        gitLogo.innerHTML =  '<a href="https://github.com/dailyjork" target="_blank"><img src="images/githubLight.png"></img></a>'
         theme.innerText = ("Light mode");
         console.log("Modus: licht");
     } else {
-        gitLogo.innerHTML = '<a href="https://github.com/dailyjork" target="_blank"><img src="../images/github.png"></img></a>'
+        gitLogo.innerHTML = '<a href="https://github.com/dailyjork" target="_blank"><img src="images/github.png"></img></a>'
         theme.innerText = ("Dark mode");
         console.log("Modus: donker");
     }
