@@ -29,20 +29,22 @@ theme.addEventListener("click", function () {
 });
 
 const body = document.body;
-const gitLogo = document.getElementById('git');
 const gitContact = document.getElementById('gitC');
 
 function switchMode() {
     body.classList.toggle('light-mode');
     if (body.classList.contains('light-mode')) {
-        gitLogo.innerHTML = '<a href="https://github.com/dailyjork" target="_blank"><img src="images/githubLight.png"></a>'
         gitContact.innerHTML = '<img src="images/githubLight.png">'
         theme.innerText = ("Light mode");
         console.log("Modus: licht");
     } else {
-        gitLogo.innerHTML = '<a href="https://github.com/dailyjork" target="_blank"><img src="images/github.png"></a>'
         gitContact.innerHTML = '<img src="images/github.png">'
         theme.innerText = ("Dark mode");
         console.log("Modus: donker");
     }
+}
+
+function toggleAccordion(element) {
+    const item = element.parentElement;
+    item.classList.toggle('active');
 }

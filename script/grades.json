@@ -1,0 +1,205 @@
+[
+  {
+    "Jaar1": [
+      {
+        "vak": "Programmeren",
+        "fases": [
+          {
+            "naam": "Fase Oriënterend",
+            "FaseUitkomst": "Behaald",
+            "FaseBeoordeling": "V",
+            "onderdelen": [
+              { "naam": "Sprint 1", "beoordeling": "G", "uitkomst": "Behaald", "sub": false },
+              { "naam": "- Toets", "cijfer": "9", "uitkomst": "Behaald", "sub": true },
+              { "naam": "- Review", "beoordeling": "V", "uitkomst": "Behaald", "sub": true },
+              { "naam": "Sprint 2", "beoordeling": "V", "uitkomst": "Behaald", "sub": false },
+              { "naam": "- Toets", "cijfer": "7", "uitkomst": "Behaald", "sub": true },
+              { "naam": "- Review", "beoordeling": "V", "uitkomst": "Behaald", "sub": true },
+              { "naam": "Sprint 3", "beoordeling": "O", "uitkomst": "Niet Behaald", "sub": false },
+              { "naam": "- Toets", "cijfer": "4.7", "uitkomst": "Niet Behaald", "sub": true },
+              { "naam": "- Review", "beoordeling": "V", "uitkomst": "Behaald", "sub": true },
+              { "naam": "Sprint 4", "beoordeling": "V", "uitkomst": "Behaald", "sub": false },
+              { "naam": "- Toets", "cijfer": "6.2", "uitkomst": "Behaald", "sub": true },
+              { "naam": "- Review", "beoordeling": "V", "uitkomst": "Behaald", "sub": true }
+            ]
+          },
+          {
+            "naam": "Fase Beginner",
+            "FaseUitkomst": "Behaald",
+            "FaseBeoordeling": "V",
+            "onderdelen": [
+              { "naam": "Sprint 1", "beoordeling": "O", "uitkomst": "Niet Behaald", "sub": false },
+              { "naam": "- Toets", "cijfer": "4.7", "uitkomst": "Niet Behaald", "sub": true },
+              { "naam": "- Review", "beoordeling": "V", "uitkomst": "Behaald", "sub": true }
+            ]
+          }
+        ]
+      },
+      {
+        "vak": "Database",
+        "fases": [
+          {
+            "naam": "Fase Oriënterend",
+            "FaseUitkomst": "Behaald",
+            "FaseBeoordeling": "V",
+            "onderdelen": [
+              { "naam": "Sprint 1", "beoordeling": "V", "uitkomst": "Behaald", "sub": false },
+              { "naam": "- Toets", "cijfer": "6", "uitkomst": "Behaald", "sub": true },
+              { "naam": "- Review", "beoordeling": "V", "uitkomst": "Behaald", "sub": true },
+              { "naam": "Sprint 2", "beoordeling": "V", "uitkomst": "Behaald", "sub": false },
+              { "naam": "- Toets", "cijfer": "5", "uitkomst": "Niet Behaald", "sub": true },
+              { "naam": "- Review", "beoordeling": "V", "uitkomst": "Behaald", "sub": true },
+              { "naam": "Sprint 3", "beoordeling": "V", "uitkomst": "Behaald", "sub": false },
+              { "naam": "- Toets", "cijfer": "6", "uitkomst": "Behaald", "sub": true },
+              { "naam": "- Review", "beoordeling": "V", "uitkomst": "Behaald", "sub": true },
+              { "naam": "Sprint 4", "beoordeling": "V", "uitkomst": "Behaald", "sub": false },
+              { "naam": "- Toets", "cijfer": "5", "uitkomst": "Niet Behaald", "sub": true },
+              { "naam": "- Review", "beoordeling": "V", "uitkomst": "Behaald", "sub": true }
+            ]
+          },
+          {
+            "naam": "Fase Beginner",
+            "FaseUitkomst": "Behaald",
+            "FaseBeoordeling": "V",
+            "onderdelen": [
+              { "naam": "Sprint 1", "beoordeling": "V", "uitkomst": "Niet Behaald", "sub": false },
+              { "naam": "- Toets", "cijfer": "5", "uitkomst": "Niet Behaald", "sub": true },
+              { "naam": "- Review", "beoordeling": "V", "uitkomst": "Behaald", "sub": true }
+            ]
+          }
+        ]
+      },
+      {
+        "vak": "Front-End",
+        "fases": [
+          {
+            "naam": "Fase Oriënterend",
+            "FaseUitkomst": "Niet Behaald",
+            "FaseBeoordeling": "O",
+            "onderdelen": [
+              { "naam": "Sprint 1", "beoordeling": "V", "uitkomst": "Behaald", "sub": false },
+              { "naam": "- Toets", "cijfer": "7", "uitkomst": "Behaald", "sub": true },
+              { "naam": "- Review", "beoordeling": "V", "uitkomst": "Behaald", "sub": true },
+              { "naam": "Sprint 2", "beoordeling": "V", "uitkomst": "Behaald", "sub": false },
+              { "naam": "- Toets", "cijfer": "6", "uitkomst": "Behaald", "sub": true },
+              { "naam": "- Review", "beoordeling": "V", "uitkomst": "Behaald", "sub": true },
+              { "naam": "Sprint 3", "beoordeling": "V", "uitkomst": "Behaald", "sub": false },
+              { "naam": "- Toets", "cijfer": "7.2", "uitkomst": "Behaald", "sub": true },
+              { "naam": "- Review", "beoordeling": "V", "uitkomst": "Behaald", "sub": true },
+              { "naam": "Sprint 4", "beoordeling": "V", "uitkomst": "Behaald", "sub": false },
+              { "naam": "- Toets", "cijfer": "5.5", "uitkomst": "Behaald", "sub": true },
+              { "naam": "- Review", "beoordeling": "V", "uitkomst": "Behaald", "sub": true }
+            ]
+          },
+          {
+            "naam": "Fase Beginner",
+            "FaseUitkomst": "Behaald",
+            "FaseBeoordeling": "V",
+            "onderdelen": [
+              { "naam": "Sprint 1", "beoordeling": "V", "uitkomst": "Niet Behaald", "sub": false },
+              { "naam": "- Toets", "cijfer": "5.8", "uitkomst": "Niet Behaald", "sub": true },
+              { "naam": "- Review", "beoordeling": "V", "uitkomst": "Behaald", "sub": true }
+            ]
+          }
+        ]
+      },
+      {
+        "vak": "Software engineering",
+        "fases": [
+          {
+            "naam": "Fase Oriënterend",
+            "FaseUitkomst": "Niet Behaald",
+            "FaseBeoordeling": "O",
+            "onderdelen": [
+              { "naam": "Sprint 1", "beoordeling": "V", "uitkomst": "Behaald", "sub": false },
+              { "naam": "- Toets", "cijfer": "7", "uitkomst": "Behaald", "sub": true },
+              { "naam": "- Review", "beoordeling": "V", "uitkomst": "Behaald", "sub": true },
+              { "naam": "Sprint 2", "beoordeling": "V", "uitkomst": "Behaald", "sub": false },
+              { "naam": "- Toets", "cijfer": "6", "uitkomst": "Behaald", "sub": true },
+              { "naam": "- Review", "beoordeling": "V", "uitkomst": "Behaald", "sub": true },
+              { "naam": "Sprint 3", "beoordeling": "V", "uitkomst": "Behaald", "sub": false },
+              { "naam": "- Toets", "cijfer": "7.2", "uitkomst": "Behaald", "sub": true },
+              { "naam": "- Review", "beoordeling": "V", "uitkomst": "Behaald", "sub": true },
+              { "naam": "Sprint 4", "beoordeling": "O", "uitkomst": "Behaald", "sub": false },
+              { "naam": "- Toets", "cijfer": "4.9", "uitkomst": "Niet Behaald", "sub": true },
+              { "naam": "- Review", "beoordeling": "V", "uitkomst": "Behaald", "sub": true }
+            ]
+          },
+          {
+            "naam": "Fase Beginner",
+            "FaseUitkomst": "Behaald",
+            "FaseBeoordeling": "G",
+            "onderdelen": [
+              { "naam": "Sprint 1", "beoordeling": "G", "uitkomst": "Behaald", "sub": false },
+              { "naam": "- Toets", "cijfer": "9", "uitkomst": "Behaald", "sub": true },
+              { "naam": "- Review", "beoordeling": "G", "uitkomst": "Behaald", "sub": true }
+            ]
+          }
+        ]
+      },
+      {
+        "vak": "Scrum",
+        "fases": [
+          {
+            "naam": "Fase Oriënterend",
+            "FaseUitkomst": "Behaald",
+            "FaseBeoordeling": "V",
+            "onderdelen": [
+              { "naam": "Sprint 1", "beoordeling": "V", "uitkomst": "Behaald", "sub": false },
+              { "naam": "- Toets", "cijfer": "5", "uitkomst": "Niet Behaald", "sub": true },
+              { "naam": "- Review", "beoordeling": "V", "uitkomst": "Behaald", "sub": true },
+              { "naam": "Sprint 2", "beoordeling": "V", "uitkomst": "Behaald", "sub": false },
+              { "naam": "- Toets", "cijfer": "7", "uitkomst": "Behaald", "sub": true },
+              { "naam": "- Review", "beoordeling": "O", "uitkomst": "Niet Behaald", "sub": true },
+              { "naam": "Sprint 3", "beoordeling": "O", "uitkomst": "Niet Behaald", "sub": false },
+              { "naam": "- Toets", "cijfer": "5", "uitkomst": "Niet Behaald", "sub": true },
+              { "naam": "- Review", "beoordeling": "O", "uitkomst": "Niet Behaald", "sub": true },
+              { "naam": "Sprint 4", "beoordeling": "V", "uitkomst": "Behaald", "sub": false },
+              { "naam": "- Toets", "cijfer": "6", "uitkomst": "Behaald", "sub": true },
+              { "naam": "- Review", "beoordeling": "V", "uitkomst": "Behaald", "sub": true }
+            ]
+          },
+          {
+            "naam": "Fase Beginner",
+            "FaseUitkomst": "Behaald",
+            "FaseBeoordeling": "V",
+            "onderdelen": [
+              { "naam": "Sprint 1", "beoordeling": "V", "uitkomst": "Behaald", "sub": false },
+              { "naam": "- Review", "beoordeling": "V", "uitkomst": "Behaald", "sub": true }
+            ]
+          }
+        ]
+      },
+      {
+        "vak": "LOB",
+        "fases": [
+          {
+            "naam": "A Fase Oriënterend",
+            "FaseUitkomst": "Behaald",
+            "FaseBeoordeling": "V",
+            "onderdelen": [
+              { "naam": "Sprint 1", "beoordeling": "V", "uitkomst": "Behaald", "sub": false },
+              { "naam": "- Review", "beoordeling": "V", "uitkomst": "Behaald", "sub": true },
+              { "naam": "Sprint 2", "beoordeling": "G", "uitkomst": "Behaald", "sub": false },
+              { "naam": "- Toets", "cijfer": "9", "uitkomst": "Behaald", "sub": true },
+              { "naam": "Review", "beoordeling": "V", "uitkomst": "Behaald", "sub": true },
+              { "naam": "Sprint 3", "beoordeling": "V", "uitkomst": "Behaald", "sub": false },
+              { "naam": "- Review", "beoordeling": "V", "uitkomst": "Behaald", "sub": true },
+              { "naam": "Sprint 4", "beoordeling": "V", "uitkomst": "Behaald", "sub": false },
+              { "naam": "Review", "beoordeling": "V", "uitkomst": "Behaald", "sub": true }
+            ]
+          },
+          {
+            "naam": "B-Fase Beginner",
+            "FaseUitkomst": "Niet behaald",
+            "FaseBeoordeling": "O",
+            "onderdelen": [
+              { "naam": "Sprint 1", "beoordeling": "V", "uitkomst": "Behaald", "sub": false },
+              { "naam": "- Toets", "cijfer": "V", "uitkomst": "Niet behaald", "sub": true }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
