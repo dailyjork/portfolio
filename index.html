@@ -87,10 +87,7 @@
                         </div>
                     </div>
                     <div class="block" id="skills">
-                        <h1>Skills</h1>
-
-                        <p></p><br><br><br><br><br>
-                        <h1> Techstack</h1>
+                        <h1> Mijn Skillset</h1>
                         <div id="skills">
                             <img src="images/java-logo.png" alt="">
                             <img src="images/JavaScript-logo.png" alt="">
@@ -110,15 +107,32 @@
                     <div class="block" id="school">
                         <h1>school</h1>
                         <p>Mavo diploma gehaald op Nehallenia 2021-2025</p>
+                        <p>In opleiding software developer mbo4 Scalda Vlissingen - 2025-2029</p>
 
-                        <P>In opleiding software developer mbo4 Scalda Vlissingen - 2025-2029</P>
+                        <button id="school-toggle">Resultaten tonen ▼</button>
 
-                    </div>  
-                    <div class="block" id="experience">
-                        <h1>experience</h1>
+                        <table id="school-table">
+                            <thead>
+                                <tr>
+                                    <th>Vak</th>
+                                    <th>Fase</th>
+                                    <th>Sprint</th>
+                                    <th>Toets</th>
+                                    <th>Review</th>
+                                    <th>Uitkomst</th>
+                                </tr>
+                            </thead>
+                            <tbody id="school-tbody"></tbody>
+                        </table>
                     </div>
+
+                </div>
+                <div class="block" id="experience">
+                    <h1>experience</h1>
+                    <p></p>
                 </div>
             </div>
+        </div>
     </main>
     <footer>
         <div id="contact">
@@ -146,9 +160,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
         integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
         crossorigin="anonymous"></script>
-    <script src="script/main.js">
-
-    </script>
+    <script src="script/main.js"></script>
+    <script src="script/studieMeter.js"></script>
 </body>
 
 </html>

@@ -182,11 +182,11 @@
               { "naam": "- Review", "beoordeling": "V", "uitkomst": "Behaald", "sub": true },
               { "naam": "Sprint 2", "beoordeling": "G", "uitkomst": "Behaald", "sub": false },
               { "naam": "- Toets", "cijfer": "9", "uitkomst": "Behaald", "sub": true },
-              { "naam": "Review", "beoordeling": "V", "uitkomst": "Behaald", "sub": true },
+              { "naam": "- Review", "beoordeling": "V", "uitkomst": "Behaald", "sub": true },
               { "naam": "Sprint 3", "beoordeling": "V", "uitkomst": "Behaald", "sub": false },
               { "naam": "- Review", "beoordeling": "V", "uitkomst": "Behaald", "sub": true },
               { "naam": "Sprint 4", "beoordeling": "V", "uitkomst": "Behaald", "sub": false },
-              { "naam": "Review", "beoordeling": "V", "uitkomst": "Behaald", "sub": true }
+              { "naam": "- Review", "beoordeling": "V", "uitkomst": "Behaald", "sub": true }
             ]
           },
           {
@@ -195,7 +195,7 @@
             "FaseBeoordeling": "O",
             "onderdelen": [
               { "naam": "Sprint 1", "beoordeling": "V", "uitkomst": "Behaald", "sub": false },
-              { "naam": "- Toets", "cijfer": "V", "uitkomst": "Niet behaald", "sub": true }
+              { "naam": "- Review", "cijfer": "V", "uitkomst": "Niet behaald", "sub": true }
             ]
           }
         ]

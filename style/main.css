@@ -109,7 +109,7 @@ body {
     margin-bottom: 20px;
 }
 
-#profile button {
+#profile button{
     width: 100%;
     padding: 12px;
     margin-bottom: 12px;
@@ -180,7 +180,8 @@ body {
 
 #form input,
 #form textarea,
-#form button {
+#form button,
+#school-toggle {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
